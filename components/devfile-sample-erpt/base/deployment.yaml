@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-erpt
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0027-tenant/tkrw-pr712-0075-0027-app/devfile-sample-erpt@sha256:3a5625a3cce647edbfe3b5c41fa40f2761f007ce5ebb5ea3c36659c9a568a33b
         name: my-nodejs
         ports:
         - containerPort: 3001
